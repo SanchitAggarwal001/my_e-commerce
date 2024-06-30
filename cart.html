@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css'/>
+
+    <title>e-commerce website</title>
+</head>
+<body>
+    <!-- header section starts  -->
+     <section id="header">
+     <a href="#"><img src="images/logo.png" class="logo" alt="coffe logo" srcset=""></a>
+     <div>
+     <ul id="navbar">
+     <li><a  href="index.html">Home</a></li>
+     <li><a href="shop.html">Shop</a></li>
+     <li><a  href="blog.html">Blog</a></li>
+     <li><a  href="about.html">About</a></li>
+     <li><a  href="contact.html">Contact</a></li>
+     <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+     <a href="#" id="close"><i class="far fa-times"></i></a>
+     </ul>
+     </div>
+     <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+     </div>
+     </section>
+
+     <!-- hero section starts -->
+      <section id="page-header" class="about-header">
+      <h2>#Let'sTalk</h2>
+      <p>We Love To Hear From You</p>
+      </section>
+       
+      <section id="cart" class="section-p1">
+        <table width ="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Tshirts</td>
+                    <td>$113</td>
+                    <td><input type="text" value="1"></td>
+                    <td>$113</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Tshirts</td>
+                    <td>$113</td>
+                    <td><input type="text" value="1"></td>
+                    <td>$113</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut Tshirts</td>
+                    <td>$113</td>
+                    <td><input type="text" value="1"></td>
+                    <td>$113</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+      <section id="cart-add" class="section-p1">    
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotals</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed To Checkout</button>
+        </div>
+      </section>
+
+          <!-- footer section  -->
+           <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="images/logo.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address</strong>#773 Guru Nanak Nagar Patiala</p>
+                <p><strong>Phone</strong>9478383056</p>
+                <p><strong>Hours</strong>00:43:19</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="Icon">
+                        <a href="https://www.facebook.com/profile.php?id=100094882950866"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/SanchitAgg48130"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/sanchit_aggarwal1221?"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms And Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col-install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Store</p>
+            <div class="row">
+                <img src="images/app.jpg" alt="">
+                <img src="images/play.jpg" alt="">
+            </div>
+           <p>Secured Payments Gateway</p>
+           <img src="images/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>2021, All Rights Reserved By Sanchit Aggarwal</p>
+            </div>
+           </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
